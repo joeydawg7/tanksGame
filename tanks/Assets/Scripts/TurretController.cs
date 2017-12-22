@@ -11,6 +11,8 @@ public class TurretController : AdvancedFSM {
     public float health;
     bool debugDraw;
 
+    public GameObject shoot;
+
     private string GetStateString()
     {
         string state = "NONE";
